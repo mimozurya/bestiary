@@ -1,0 +1,17 @@
+button {
+    height: 70px;
+    width: 280px;
+    font-size: 20px;
+}
+
+.app {
+    margin-top: 400px;
+}
+
+#nameDiv {
+    border: 2px solid black;
+    margin-top: 10px;
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
+}
