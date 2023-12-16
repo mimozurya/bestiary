@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #fafdff;
+}
+
+.app-container {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.left-side {
+    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.cell-1-4 {
+    background: #fff;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.03);
+    width: 270px;
+    height: 289px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cell-1-4 p {
+    background: #fff;
+    color: #303032;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+.cell-1-4 b {
+    background: #fff;
+    color: #303032;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.nova {
+    background: #fafdff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: start;
+}
+.greyChair img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.chandelier p {
+    margin-top: -25px;
+}
+
+h1 {
+    color: #303032;
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    margin-top: 123px;
+}
+.line {
+    margin-top: 7px;
+    width: 90px;
+    height: 4px;
+    background: #303032;
+}
+
+.cell-1 {
+    background: #fff;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.03);
+    width: 570px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cell-1 img {
+    margin-bottom: 29px;
+}
+.cell-1 p {
+    background: #fff;
+    color: #303032;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 7px;
+}
+.cell-1 b {
+    background: #fff;
+    color: #303032;
+    font-family: Open Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 26px;
+}
